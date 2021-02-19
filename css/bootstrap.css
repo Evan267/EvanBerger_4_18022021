@@ -200,6 +200,7 @@ input[type=search]::-webkit-search-decoration {
     -webkit-appearance: none
 }
 
+
 fieldset {
     padding: .35em .625em .75em;
     margin: 0 2px;
@@ -1416,12 +1417,6 @@ a:hover {
     text-decoration: underline
 }
 
-a:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
-}
-
 figure {
     margin: 0
 }
@@ -1436,7 +1431,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 
@@ -5194,13 +5189,17 @@ textarea.input-group-sm>.input-group-btn>.btn {
     line-height: 20px
 }
 
+.navbar-brand img{
+    height:40px;
+}
+
 .navbar-brand:focus,
 .navbar-brand:hover {
     text-decoration: none
 }
 
 .navbar-brand>img {
-    display: block
+    display: block;
 }
 
 @media (min-width:768px) {
