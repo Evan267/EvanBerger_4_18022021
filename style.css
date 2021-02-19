@@ -102,7 +102,7 @@ figcaption{
 }
 
 .bcg-orange{
-    background-color: #BF7F54;
+    background-color: #934210;
 }
 
 .texture-paper::before {
@@ -667,7 +667,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: ##1F1F1F!important;
 }
 
 .container {
@@ -815,7 +815,7 @@ h4 {
 }
 
 .black{
-    color: rgba(48 ,48 ,48);
+    color: #1F1F1F;
 }
 
 .bold-link {
